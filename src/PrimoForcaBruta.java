@@ -91,3 +91,30 @@ public class PrimoForcaBruta {
 		System.out.println("Total de primos encontrados: " + listOfPrimes.size());
 	}
 }
+
+//ALGORITMO EM C
+
+//#include <stdio.h>
+//#include <conio.h>
+//int main(){	
+//	int numeroDigitado, i, x;
+//	printf("Digite algum numero: ");
+//	scanf("%d", & numeroDigitado);
+//	printf("*************** Numeros primos encontrados ***************** \n\n");
+//	for (i = 1; i <= numeroDigitado; i++){
+//		if (i == 2){
+//			printf("%d\n", i);
+//		}		
+//		if ((i % 2) != 0 && i != 1){
+//			for (x = i; x>2; x--){
+//				if ((i % x ) == 0 && x != i){
+//					break;
+//				}	
+//				if(x == 3){
+//					printf("%d\n", i);
+//				}
+//			}
+//		}
+//	}
+//	return 0;
+//}
